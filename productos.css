@@ -1,0 +1,45 @@
+.caja{
+    position: relative;
+    width: 980px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+header{
+    background-color: gray;
+}
+
+logo{
+    float: left;
+}
+
+#header_list{
+    float: right;
+    margin-top: 100px;
+}
+
+.head_list{
+    font-size: 40px;
+    display: inline;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+a:link { 
+    text-decoration: none;
+    color: black; 
+  } 
+  a:visited { 
+    text-decoration: none; 
+    color: black; 
+  } 
+  a:hover { 
+    text-decoration: none; 
+    color: black; 
+  } 
+  a:active { 
+    text-decoration: none; 
+    color: black; 
+  }
+  

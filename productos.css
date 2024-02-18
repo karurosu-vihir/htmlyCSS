@@ -36,10 +36,66 @@ a:link {
   } 
   a:hover { 
     text-decoration: none; 
-    color: black; 
+    color: orange; 
   } 
   a:active { 
     text-decoration: none; 
     color: black; 
   }
+
+  .productos{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+  }
+
+  .sell-items{
+    position: relative;
+    display: inline-block;
+    width: 30%;
+    height: 420px;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px;
+  }
+
+  .sell-items:hover{
+    border-color: orange;
+    font-size: 26px;
+  }
+
+  .sell-items:active{
+    border-color: greenyellow;
+  }
+
+  .productos h2{
+    font-size: larger;
+    font-weight: bold;
+  }
+
+  .money{
+    font-weight: bold;
+    margin-top: 10px;
+  }
   
+  footer{
+    text-align: center;
+    background: url(imagenes/imagenes/bg.jpg);
+    color: azure;
+    padding: 40px;
+  }
+
+  .copy{
+    position: relative;
+    margin: 20px;
+    bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }

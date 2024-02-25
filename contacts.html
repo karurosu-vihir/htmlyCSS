@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <title>Contactos - Barberia Carlos</title>
+    <link rel="stylesheet" href="contacts.css">
+</head>
+<body>
+    <header>
+        <div class="caja">
+        <h1>
+            <img id="logo" src="imagenes/imagenes/logo.png" alt="logo de la Barberia">
+            <ul id="header_list">
+                <li class="head_list"><a href="index.html"> HOME </a></li>
+                <li class="head_list"><a href="productos.html"> Productos </a></li>
+                <li class="head_list"><a href="contacts.css"> Contacto </a></li>
+            </ul>
+        </h1>
+        </div>
+    </header>
+    <main>
+        <form action="">
+            <label for="input-nombre">Nombre y Apellido:</label>
+            <input id="input-nombre" class="input-text" type="text" required placeholder="Nombre Apellido">
+            <label for="input-mail">Correo Electronico:</label>
+            <input id="input-mail" class="input-text" type="email" required placeholder="email@direccion.com">
+            <label for="input-phone">Telefono:</label>
+            <input id="input-phone" class="input-text" type="tel" required placeholder="(XXX) XXXX-XXXX">
+            <label for="input-mess">Mensaje:</label>
+            <textarea id="input-mess" cols="90" rows="4" required></textarea>
+
+            <fieldset>
+            <legend>Como le gustaria que lo contactemos?</legend>
+            <label for="radio-mail"><input type="radio" name="contacto" id="radio-mail" class="contact" checked>Email</label>
+            <label for="radio-phone"><input type="radio" name="contacto" id="radio-phone" class="contact">Telefono</label>
+            <label for="radio-whats"><input type="radio" name="contacto" id="radio-whats" class="contact">Whatsapp</label> 
+            </fieldset>
+
+            <fieldset>
+            <legend>En que horario le gustaria ser atendido?</legend>
+            <select id="jornada">
+                <option>Mañana</option>
+                <option>Tarde</option>
+                <option>Noche</option>
+            </select>
+            </fieldset>
+
+            <label for="chck" class="checkbox"><input id="chck" type="checkbox" required>Le gustaria recibir novedades</label>            
+
+            <!-- <button> Enviar </button> -->
+            <input type="submit" value="Enviar Formulario">
+        </form>
+    </main>
+    <footer>
+        <img src="imagenes/imagenes/logo-blanco.png" alt="Logo de Pie de Pagina de la Barberia">
+        <p class="copy">&copy Copyright Barberia Carlos - 2024</p>
+    </footer>
+</body>
+</html>

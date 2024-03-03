@@ -1,52 +1,69 @@
 <!DOCTYPE html>
-
 <html lang="es">
-
-    <head>
-        
-        <meta charset="UTF-8">
-        <title> Barbería Carlos </title>
-        <link rel="stylesheet" href="index.css">
-        
-    </head>
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="reset.css">
+    <title>Productos - Barberia Carlos</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
     <header>
-        <h1 id="titulo">Sobre la Barbería Carlos</h1>
-        <nav>
-        <h1 id="Nav">
-            <ul>
-                <li class="nav-items"><a href="index.html">HOME</a></li>
-                <li class="nav-items"><a href="productos.html">PRODUCTS</a></li>
-                <li class="nav-items"><a href="contacts.html">CONTANCTS</a></li>
+        <div class="caja">
+        <h1>
+            <img id="logo" src="imagenes/imagenes/logo.png" alt="Logo de la Barberia">
+            <ul id="header_list">
+                <li class="head_list"><a href="index.html"> HOME </a></li>
+                <li class="head_list"><a href="productos.html"> Productos </a></li>
+                <li class="head_list"><a href="contacts.html"> Contacto </a></li>
             </ul>
         </h1>
-    </nav>
+        </div>
     </header>
 
     <body>
     <main> 
-        <img id="imagen" src="barberimg.jpg" alt="Logo de la Barberia Carlos">
-        <p id="disclaim">Esta Imagen no es mía</p>
+        <img id="imagen" src="Banner-2048x1360.jpeg" alt="banner">
 
-        <div id="descripcion">
+        <section id="descripcion">
+            <h2 class="titulo-principal">Sobre la Barberia</h2>
+            <img class="img_utensilios" src="imagenes/imagenes/utensilios[1].jpg" alt="utensilios">
             <p>Ubicada en el corazón de la ciudad, la <strong>Barbería Carlos</strong>  trae para el mercado lo que hay de mejor para su cabello y barba. Fundada en 2020, la Barbería Carlos ya es destaque en la ciudad y conquista nuevos clientes diariamente. </p>
-            <p id="mision"><em>Nuestra misión es: <strong>"Proporcionar autoestima y calidad de vida a nuestros clientes".</strong></em></p>
+            <p><em>Nuestra misión es: <strong>"Proporcionar autoestima y calidad de vida a nuestros clientes".</strong></em></p>
             <p>Ofrecemos profesionales experimentados que están constantemente observando los cambios y movimiento en el mundo de la moda, para así ofrecer a nuestros clientes las últimas tendencias. El atendimiento posee un padrón de excelencia y agilidad, garantizando calidad y satisfacción de nuestros clientes.</p>
-        </div>
+        </section>
 
-        <div id="diferencias">
-            <h2>Diferenciales</h2>
-            <ul>
-            <strong>
+        <section class="mapa">
+            <h2 class="titulo-principal">Ubicacion</h2>
+            <p>Nuestor estabalecimiento esta ubicado en el corazon de la ciudad</p>
+            <iframe id="Gmaps" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d809.9750292370793!2d139.5570879695961!3d35.70407548731989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzXCsDQyJzE0LjciTiAxMznCsDMzJzI3LjgiRQ!5e0!3m2!1ses-419!2shn!4v1708903665528!5m2!1ses-419!2shn" width="80%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section id="diferencias">
+            <h2 class="titulo-principal">Diferenciales</h2>
+            <div class="div-items">
+            <ul class="lista-dif">
             <li class="items"> Atención personalizada a los clientes </li>
             <li class="items"> Espacio diferenciado </li>
             <li class="items"> Localización </li>
+            <li class="items"> Puntualidad </li>
+            <li class="items"> Limpieza </li>
+            <li class="items"> Profesionalidad </li>
             <li id="lista_4" class="items"> Profesionales calificados </li>
-            </strong>
-            </ul>
-            <!-- <img src="estudiar-barbería@0.5x.jpg" class="img_lista"> -->            
+            </ul><img src="estudiar-barbería@0.5x.jpg" class="img_lista">  
+            </div>
+        </section>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/tNpZdgzQB_0?si=Dlr0_yjsZOrDcBX9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
     </main>
+    <footer>
+        <img src="imagenes/imagenes/logo-blanco.png" alt="Logo del Pie de Pagina">
+        <p class="copy">&copy Copyright Barberia Carlos - 2024</p>
+    </footer>
     </body>
 
 </html>
